@@ -1,18 +1,4 @@
-# Project Description
-This project is a homework assignment to teach how to get Pycharm setup with Docker, Flask, MySQL, and Postman
-
-## Assignments
-* [Assignment 4](restIntro-pycharm.pdf)
-
-
-## Videos
-
-* [Video 4 - REST API Part 1](https://youtu.be/E1Xk5dk3Abc)  Note this is a general video I use for another class and is about the concept of REST API and is not specific to python.  The 3rd Video of this part is the specific for python
-* [Video 5 - REST API Part 2](https://youtu.be/LGNkFTE3DI8)
-* [Video 6 - Assignment 4 Project Video](https://youtu.be/bfAW4vOdz7Q)
-
-# Useful Links
-* [Flask Homepage and Documentation](https://flask.palletsprojects.com/en/1.1.x/)
-* [JSON Spec Reference](https://www.json.org/json-en.html)
-* [SimpleJSON Reference](https://simplejson.readthedocs.io/en/latest/)
-* [W3 Schools SQL Tutorial and Reference](https://www.w3schools.com/sql/)
+# •	Feature 1
+Create a login and registration process that includes email verification.  You can use a service like SendGrid to send email and you should look for a Flask Plugin to help.
+# •	Feature 2
+ Create a calendar display and retrieve data out of Google Calendar.   Allow someone to add an even to their Google Calendar and display it on the page.  You can use the HTML full calendar plugin here (Links to an external site.) and you can probably make an iCal Feed from your Google calendar to feed into it, but you will need to cache the data locally in the database and update the data periodically between each request is made.  For example, if the calendar data has not been updated in 5 minutes, make a request to retrieve the data and update the database and then display that data in the fullCalendar page.
